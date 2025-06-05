@@ -1,0 +1,17 @@
+{
+    // ✅ Enable ESLint auto-fix on save
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.fixAll.eslint": "explicit"
+    },
+  
+    // ✅ Tell VS Code to use Flat Config (eslint.config.mjs)
+    "eslint.experimental.useFlatConfig": true,
+  
+    // ✅ Validate .js files with ESLint
+    "eslint.validate": ["javascript"],
+  
+    // ❌ Turn off Prettier or formatOnSave if using ESLint only
+    "editor.formatOnSave": false
+  }
+  
