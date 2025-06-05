@@ -70,7 +70,7 @@ export default [
       // ✅ Best Practices
       "eqeqeq": ["error", "always"],
       "curly": ["error", "all"],
-      "no-console": "warn", // ✅ allow console.log
+      "no-console": "off", // ✅ allow console.log
       "consistent-return": "error",
 
       // ✅ Code Style
